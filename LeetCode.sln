@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{A4516238-635E-4413-93CA-32F58E2ABC8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSum", "TwoSum\TwoSum.csproj", "{A4516238-635E-4413-93CA-32F58E2ABC8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeStringsAlternately", "MergeStringsAlternately\MergeStringsAlternately.csproj", "{AE9625E8-A23A-4E00-91CB-62BB17710ADC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeStringsAlternately", "MergeStringsAlternately\MergeStringsAlternately.csproj", "{AE9625E8-A23A-4E00-91CB-62BB17710ADC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseLinkedList", "ReverseLinkedList\ReverseLinkedList.csproj", "{DC53BED7-0341-48F2-B155-7C53A51FC5FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackspaceStringCompare", "BackspaceStringCompare\BackspaceStringCompare.csproj", "{A142028E-AF15-448B-8C6C-782ECF9BBCB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{AE9625E8-A23A-4E00-91CB-62BB17710ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE9625E8-A23A-4E00-91CB-62BB17710ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE9625E8-A23A-4E00-91CB-62BB17710ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC53BED7-0341-48F2-B155-7C53A51FC5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC53BED7-0341-48F2-B155-7C53A51FC5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC53BED7-0341-48F2-B155-7C53A51FC5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC53BED7-0341-48F2-B155-7C53A51FC5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A142028E-AF15-448B-8C6C-782ECF9BBCB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A142028E-AF15-448B-8C6C-782ECF9BBCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A142028E-AF15-448B-8C6C-782ECF9BBCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A142028E-AF15-448B-8C6C-782ECF9BBCB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
