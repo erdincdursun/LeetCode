@@ -67,5 +67,5 @@ namespace MergeStringsAlternately
             return merged.ToString();
         }
     }
-
+   
 }
