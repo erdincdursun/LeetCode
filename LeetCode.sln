@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeStringsAlternately", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseLinkedList", "ReverseLinkedList\ReverseLinkedList.csproj", "{DC53BED7-0341-48F2-B155-7C53A51FC5FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackspaceStringCompare", "BackspaceStringCompare\BackspaceStringCompare.csproj", "{A142028E-AF15-448B-8C6C-782ECF9BBCB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackspaceStringCompare", "BackspaceStringCompare\BackspaceStringCompare.csproj", "{A142028E-AF15-448B-8C6C-782ECF9BBCB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciNumber", "FibonacciNumber\FibonacciNumber.csproj", "{89924F15-0249-48A5-B130-476960748568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMiddleNode", "FindMiddleNode\FindMiddleNode.csproj", "{B14E9991-D4D6-4E1F-9C32-6A714132A640}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{A142028E-AF15-448B-8C6C-782ECF9BBCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A142028E-AF15-448B-8C6C-782ECF9BBCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A142028E-AF15-448B-8C6C-782ECF9BBCB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89924F15-0249-48A5-B130-476960748568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89924F15-0249-48A5-B130-476960748568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89924F15-0249-48A5-B130-476960748568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89924F15-0249-48A5-B130-476960748568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B14E9991-D4D6-4E1F-9C32-6A714132A640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14E9991-D4D6-4E1F-9C32-6A714132A640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14E9991-D4D6-4E1F-9C32-6A714132A640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14E9991-D4D6-4E1F-9C32-6A714132A640}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
