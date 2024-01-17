@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackspaceStringCompare", "B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciNumber", "FibonacciNumber\FibonacciNumber.csproj", "{89924F15-0249-48A5-B130-476960748568}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMiddleNode", "FindMiddleNode\FindMiddleNode.csproj", "{B14E9991-D4D6-4E1F-9C32-6A714132A640}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMiddleNode", "FindMiddleNode\FindMiddleNode.csproj", "{B14E9991-D4D6-4E1F-9C32-6A714132A640}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListCycle", "LinkedListCycle\LinkedListCycle.csproj", "{39A4ECF4-CD1C-48BD-8142-095E38517D1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParenthesesBalanced", "ParenthesesBalanced\ParenthesesBalanced.csproj", "{09C780E4-D3A1-469F-A693-AC0A3EDEFD80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{B14E9991-D4D6-4E1F-9C32-6A714132A640}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B14E9991-D4D6-4E1F-9C32-6A714132A640}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B14E9991-D4D6-4E1F-9C32-6A714132A640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A4ECF4-CD1C-48BD-8142-095E38517D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A4ECF4-CD1C-48BD-8142-095E38517D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A4ECF4-CD1C-48BD-8142-095E38517D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A4ECF4-CD1C-48BD-8142-095E38517D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C780E4-D3A1-469F-A693-AC0A3EDEFD80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C780E4-D3A1-469F-A693-AC0A3EDEFD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C780E4-D3A1-469F-A693-AC0A3EDEFD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C780E4-D3A1-469F-A693-AC0A3EDEFD80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

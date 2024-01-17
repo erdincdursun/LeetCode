@@ -30,6 +30,21 @@ namespace FindMiddleNode
                 }
                 return slowPtr;
             }
+            ListNode MiddleNode2(ListNode head)
+            {
+                if (head is null)
+                {
+                    return null;
+                }
+                ListNode slowPtr = head;
+                ListNode fastPtr = head;
+                while(fastPtr is not null && fastPtr.next is not null)
+                {
+                    slowPtr = slowPtr.next;
+                    fastPtr = fastPtr.next.next;
+                }
+                return slowPtr;
+            }
         }
 
         //Recursive
@@ -39,7 +54,6 @@ namespace FindMiddleNode
             else if (fastPointingNode.next == null) return slowPointingNode.next;
             else return Helper(slowPointingNode.next, fastPointingNode.next.next);
         }
-
     }
 }
 
